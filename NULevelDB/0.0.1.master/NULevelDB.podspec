@@ -6,7 +6,8 @@ Pod::Spec.new do |s|
   s.homepage = 'https://github.com/nulayer/NULevelDB'
   s.author   = { 'Brent Gulanowski' => 'FILL IN' }
 
-  s.source   = { :git => 'https://github.com/nulayer/NULevelDB.git', :branch => 'master' }
+  s.source   = { :git => 'https://github.com/nulayer/NULevelDB.git', 
+                 :commit => 'b8a4740c8d7f8b354fb077e1c59be39d5b82fb8e' }
 
   s.description = %{
       NULevelDB is an Objective-C wrapper for Google's C++ leveldb key-value store library.
@@ -22,7 +23,6 @@ Pod::Spec.new do |s|
                     
   #s.exclude_header_search_paths = 'leveldb/include/*.h', 'leveldb/port/*.h'
   s.compiler_flags = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX"
-  s.clean_paths = "NULevelDB", "Tests", "NULevelDBTests", "*.xcodeproj", "*.xcworkspace"
   s.library = 'stdc++'
   s.xcconfig = { 'HEADER_SEARCH_PATHS' => "\"$(PODS_ROOT)/#{s.name}/leveldb/include/\" \"$(PODS_ROOT)/#{s.name}/leveldb/\"", 'ALWAYS_SEARCH_USER_PATHS' => "NO" }
 end

@@ -6,8 +6,8 @@ Pod::Spec.new do |s|
   s.license  = 'MIT'
   s.author   = { 'August Mueller' => 'gus@flyingmeat.com' }
   s.source   = { :git => 'https://github.com/ccgus/fmdb.git',
-                 :branch => 'master' }
-
-  s.source_files = FileList['src/FM*.{h,m}'].exclude(/fmdb\.m/)
+                 :commit => 'f66715b8c42df999fe7047a9589c8b471b485277' }
+  s.source_files = 'src/FM*.{h,m}'
+  s.exclude_files = 'fmdb.m'
   s.library = 'sqlite3'
 end

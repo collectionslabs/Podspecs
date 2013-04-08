@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
   s.name         = "OEGridView"
   s.version      = "0.1.0"
-  s.summary      = "This is the unofficial repo for my fork of OEGridView, the high performance Core Animation based grid view used in OpenEmu (which is a fantastic app, by the way)."
+  s.summary      = "High performance Core Animation-based grid view, originally from OpenEmu."
   s.homepage     = "https://github.com/indragiek/OEGridView"
   s.author       = { "indragiek" => "https://github.com/indragiek" }
-  s.source       = { :git => "https://github.com/indragiek/OEGridView", :commit => "9d19476e3629fc3411927be65a73a3252ed624a0" }
+  s.source       = { :git => "https://github.com/indragiek/OEGridView.git", :commit => "9d19476e3629fc3411927be65a73a3252ed624a0" }
   s.platform     = :osx
   s.source_files = '*.{h,m}'
   s.requires_arc = true
