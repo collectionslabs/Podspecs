@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'MASPreferences'
-  s.version      = '0.0.1.head'
+  s.version      = '1.0.head'
   s.homepage     = 'https://github.com/shpakovski/MASPreferences'
   s.summary      = 'Custom implementation of Preferences window in Cocoa applications for Mac OS X.'
   s.source       = { :git => 'git://github.com/shpakovski/MASPreferences.git',
