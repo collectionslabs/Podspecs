@@ -40,7 +40,6 @@ Pod::Spec.new do |s|
   s.authors      = { "James Montgomerie" => "jamie@montgomerie.net" }
   s.source       = { :git => "git://github.com/th-in-gs/YACYAML.git", :commit => "760a21e6750d74b92ee12512fa78d417a7f4465c" }
   s.source_files = 'YACYAML/**', 'YACYAML/*/**', 'config.h'
-  s.public_header_files = 'YACYAML/YACYAML.h'
   s.libraries    = 'resolv'
   s.dependency 'LibYAML', '~> 0.1.4'
 end
