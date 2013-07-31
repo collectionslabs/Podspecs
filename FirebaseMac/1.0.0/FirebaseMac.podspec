@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
-  s.name           = "Firebase"
-  s.version        = "1.0.0.mac"
+  s.name           = "FirebaseMac"
+  s.version        = "1.0.0"
   s.summary        = "The Firebase iOS framework for adding realtime data synchronization to your app."
   s.homepage       = "https://www.firebase.com/"
   s.license        = { :type => 'Commercial', :text => 'https://www.firebase.com/terms/terms-of-service.html' }
@@ -11,5 +11,5 @@ Pod::Spec.new do |s|
   s.framework      = 'CFNetwork', 'Security', 'Firebase'
   s.library        = 'icucore'
   s.requires_arc   = true
-  s.xcconfig       = { 'OTHER_LDFLAGS' => '-ObjC', 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/Firebase"' }
+  s.xcconfig       = { 'OTHER_LDFLAGS' => '-ObjC', 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/FirebaseMac"' }
 end
