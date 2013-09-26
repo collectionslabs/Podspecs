@@ -41,6 +41,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "git://github.com/th-in-gs/YACYAML.git", :commit => "760a21e6750d74b92ee12512fa78d417a7f4465c" }
   s.source_files = 'YACYAML/**', 'YACYAML/*/**', 'config.h'
   s.libraries    = 'resolv'
-  s.dependency 'LibYAML', '~> 0.1.4',
+  s.dependency 'LibYAML', '~> 0.1.4'
   s.requires_arc = true
 end
