@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
     ss.dependency 'ConciseKit', '~> 0.1.2'
     ss.dependency 'BlocksKit', '~> 2.0'
     ss.dependency 'libextobjc', '~> 0.3'
-    ss.dependency 'ReactiveCocoa', '~> 2.1'
+    ss.dependency 'ReactiveCocoa', '~> 0.4.1'
     ss.dependency 'NSLogger', '~> 1.1'
     ss.dependency 'ISO8601DateFormatter', '~> 0.7'
 
