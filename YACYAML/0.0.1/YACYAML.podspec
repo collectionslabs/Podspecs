@@ -42,4 +42,5 @@ Pod::Spec.new do |s|
   s.source_files = 'YACYAML/**', 'YACYAML/*/**', 'config.h'
   s.libraries    = 'resolv'
   s.dependency 'LibYAML', '~> 0.1.4'
+  s.requires_arc = true
 end
